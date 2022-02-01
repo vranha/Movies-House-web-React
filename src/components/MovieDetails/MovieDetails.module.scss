@@ -1,0 +1,21 @@
+
+
+.name{
+    color: var(--main);
+}
+
+.starDiv{   
+  position: absolute;
+  margin:0px 10px;
+}
+
+.starDivChecked{ 
+    position: relative;
+    bottom: 0px;
+    margin: 5px;
+    width: 100px;
+    height: 23px;
+    background-color:rgb(243, 181, 9);
+    mix-blend-mode: screen;
+
+}

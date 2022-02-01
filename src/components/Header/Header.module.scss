@@ -1,0 +1,34 @@
+.active{
+    color: red;
+}
+
+.m{
+    height: 70px;
+}
+
+.containerTitle{
+    display:flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+
+    img{
+        margin-top: 2px;
+    }
+
+    .ovies{
+        font-size: 30px;
+        letter-spacing: 8px;
+        font-weight: 900;
+    }
+
+    .house{
+        font-size: 25px;
+        letter-spacing: 3px;
+        font-weight: 900;
+        position: absolute;
+        top:35px;
+        left: 92px;
+        color: #D1A037;
+    }
+}

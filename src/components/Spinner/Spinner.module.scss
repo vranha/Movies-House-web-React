@@ -1,0 +1,30 @@
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+
+}
+
+
+div.spinner {
+    height: 21px;
+    width: 21px;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: dashed 1px #D1A037;
+    animation-name: loader-spin;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+    &.large {
+      width: 43px;
+      height: 43px;
+      border-width: 3px;
+    }
+  }
+  @keyframes loader-spin {
+    from   {  transform: rotate(0deg); }
+    to     {  transform: rotate(360deg); }
+  }
